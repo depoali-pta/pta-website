@@ -1,0 +1,30 @@
+nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+    background: rgb(238, 243, 243);
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	nav li a {
+		color: rgb(0, 0, 0);
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+		font-size:20px;
+	}
+    nav li a:hover {
+        color: rgb(0, 183, 255)
+    }
+    #logo-img {
+        vertical-align: middle;
+        position: relative;
+    }
+    nav ul li a h3 {
+        vertical-align: middle;
+        position: relative;
+        top: 5px;
+    }

@@ -2,7 +2,7 @@ nav ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-    background: rgb(238, 243, 243);
+    background: #90B0DB;
 	}
 
 	nav li {
@@ -33,7 +33,7 @@ nav ul {
         font-weight: 400;
         font-style: normal;
         text-decoration: underline;
-        text-decoration-color: rgb(0, 183, 255);
+        text-decoration-color: 	#90B0DB;
         text-decoration-thickness: 10px;
     }
     

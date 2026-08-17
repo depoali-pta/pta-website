@@ -28,3 +28,49 @@ nav ul {
         position: relative;
         top: 5px;
     }
+    .erica-one-regular {
+        font-family: "Erica One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: underline;
+        text-decoration-color: rgb(0, 183, 255);
+        text-decoration-thickness: 10px;
+    }
+    
+    .title {
+         font-family: "Google Sans Flex", sans-serif;
+         font-optical-sizing: auto;
+         font-weight: 750;
+         font-style: normal;
+         font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "ROND" 0;
+        }
+    .role {
+        font-family: "Google Sans Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        position: relative;
+        bottom: 15px;
+        font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "ROND" 0;
+    }
+    .description {
+        font-family: "Google Sans Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: relative;
+        bottom: 20px;
+        font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "ROND" 0;
+    }    

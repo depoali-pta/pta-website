@@ -1,3 +1,11 @@
+/* 
+dear person trying to clean up this file
+good luck
+i wrote this in order of when i styled the html, not even any meaningful file seperation
+but to make life somewhat easier, i added ids to a bunch of elements and didnt use them (oops)
+*/
+
+
 nav ul {
 		list-style-type: none;
 		margin: 0;
@@ -17,7 +25,7 @@ nav ul {
 		font-size:20px;
 	}
     nav li a:hover {
-        color: rgb(0, 183, 255)
+        color: 	#232C4D
     }
     #logo-img {
         vertical-align: middle;
@@ -74,3 +82,69 @@ nav ul {
             "GRAD" 0,
             "ROND" 0;
     }    
+    .big {
+        font-family: "Google Sans Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: relative;
+        font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "ROND" 0;
+        padding: 10px
+    }
+    .sidebar {
+        padding: 5px;
+        width: fit-content;
+        gap: 20px;
+        display: flex;
+    }
+    /* great class name btw*/
+    .big {
+      font-size: 1.17em;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    #left-sidebar img {
+        width: 350px;
+        height: auto;
+    }
+    #left-sidebar {
+        padding: 5px;
+        background-color: rgb(244,244,244);
+        gap: 5px;
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 15px;
+    }
+    @media (max-width: 600px) {
+        .sidebar {
+            flex-direction: column;
+        }
+    }
+
+    #middle-bar {
+        margin-bottom: 10px;
+        display: flex;
+        background-color: rgb(244,244,244);
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .schedule {
+       display: flex;
+       flex-direction: column;
+       gap: 12px;
+    }
+
+    #schedule-text {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0;
+        gap: 15px;
+    }

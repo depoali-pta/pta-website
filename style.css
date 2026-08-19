@@ -98,8 +98,9 @@ nav ul {
     .sidebar {
         padding: 5px;
         width: fit-content;
-        gap: 20px;
+        gap: 15px;
         display: flex;
+        margin-top: 5px;
     }
     /* great class name btw*/
     .big {
@@ -120,11 +121,17 @@ nav ul {
         display: flex;
         flex-direction: column;
         height: fit-content;
-        padding: 15px;
+        padding: 12px;
     }
     @media (max-width: 600px) {
         .sidebar {
             flex-direction: column;
+        }
+    }
+
+    @media (max-width: 400px) {
+        #left-sidebar img {
+            width: 325px;
         }
     }
 
@@ -147,4 +154,32 @@ nav ul {
         font-weight: bold;
         margin: 0;
         gap: 15px;
+    }
+
+    .right-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(244,244,244);
+        height: fit-content;
+    }
+
+    .far-right-bar {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(244,244,244);
+        height: fit-content;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 500px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background: #90B0DB;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        color: 	#121C43;
+        margin-right: 10px
     }

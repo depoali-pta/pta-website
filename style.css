@@ -31,10 +31,9 @@ nav ul {
         vertical-align: middle;
         position: relative;
     }
-    nav ul li a h3 {
+    nav ul li a span {
         vertical-align: middle;
         position: relative;
-        top: 5px;
     }
     .erica-one-regular {
         font-family: "Erica One", sans-serif;
@@ -110,18 +109,17 @@ nav ul {
     }
 
     #left-sidebar img {
-        width: 350px;
+        width: 400px;
         height: auto;
     }
     #left-sidebar {
-        padding: 5px;
         background-color: rgb(244,244,244);
         gap: 5px;
         flex: 0 1 auto;
         display: flex;
         flex-direction: column;
         height: fit-content;
-        padding: 12px;
+        padding: 10px;
     }
     @media (max-width: 600px) {
         .sidebar {
@@ -129,11 +127,22 @@ nav ul {
         }
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 415px) {
         #left-sidebar img {
             width: 325px;
         }
     }
+    
+    @media (max-width: 850px) {
+        #left-sidebar img {
+            width: 325px;
+        }
+    }
+    @media (max-width: 365px) {
+        #left-sidebar img {
+            width: 315px;
+        }
+    } 
 
     #middle-bar {
         margin-bottom: 10px;
@@ -172,7 +181,6 @@ nav ul {
 
     .fa {
         padding: 20px;
-        font-size: 500px;
         width: 15px;
         text-align: center;
         text-decoration: none;
@@ -182,4 +190,18 @@ nav ul {
         margin-bottom: 5px;
         color: 	#121C43;
         margin-right: 10px
+    }
+
+    .resource-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .resource-links a:hover {
+        color: #5B7099;
+    }
+
+    .resource-links a {
+        color: #90B0DB;
     }

@@ -205,3 +205,52 @@ nav ul {
     .resource-links a {
         color: #90B0DB;
     }
+
+    #live-meeting-bar {
+        display: none;
+        background: #5B7099;
+        gap: 20px;
+        flex-direction: column;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .extra-big {
+      font-size: 2.5em;
+      gap: 5px;
+      font-weight: bold;
+      padding-left: 5px;
+      margin: 0;
+      font-family: "Google Sans Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      position: relative;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "ROND" 0;
+      padding: 10px
+    }
+
+    #meeting-join-link:hover {
+        color:	#121C43;        
+    }
+
+    #meeting-join-link {
+        color: 	#232C4D;
+    }
+
+    h1 {
+        font-family: "Google Sans Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        position: relative;
+        font-variation-settings:
+            "slnt" 0,
+            "wdth" 100,
+            "GRAD" 0,
+            "ROND" 0;
+        padding: 10px
+    }

@@ -176,6 +176,7 @@ nav ul {
         flex-direction: column;
         background-color: rgb(244,244,244);
         height: fit-content;
+        width: fit-content;
     }
 
     .far-right-bar {
@@ -265,6 +266,9 @@ nav ul {
     .sponsor-img {
         width: 335px;
         height: auto;
+        gap: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     .sponsors img {
